@@ -15,14 +15,16 @@ export default function Page() {
     const phrases = [
       "Maybe see how",
       "Wow i can't believe you'd pick this again",
-      "Think again you can OT another day",
-      "No? I've booked my fav viet restaurant",
-      "Last chance!",
+      "Think again you can clear OT another day",
+      "still No? I've booked a super good viet restaurant",
+      "pleasee i find you vry pretty",
+      "and you're vry much my type :)",
       "Surely not?",
       "You think I'm gonna give you a choice? hahahaha",
       "Actly I'm not asking",
       "But I should probably give you a choice",
       "This could be a mistake!",
+      "Last chance!",
       "Have a heart!",
       "Don't be so cold!",
       "Change of heart?",
@@ -30,7 +32,6 @@ export default function Page() {
       "Is that your final answer?",
       "You're breaking my heart ;(",
       "Is that your final answer?",
-      "You're breaking my heart ;(",
       "Plsss? :( You're breaking my heart",
     ];
 

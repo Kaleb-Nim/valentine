@@ -27,7 +27,7 @@ export default function Page() {
       "But I should probably give you a choice",
       "idk bout u i feel we went thru similar life experience",
       "soooo this that your final answer?",
-      "Plsss? :)",
+      "Plsss? :( jk jk",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];

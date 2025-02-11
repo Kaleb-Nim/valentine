@@ -13,10 +13,10 @@ export default function Page() {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
+      "Maybe see how",
+      "Wow i can't believe you'd pick this again",
+      "Think again you can OT another day",
+      "No? I've booked my fav viet restaurant",
       "Last chance!",
       "Surely not?",
       "You might regret this!",
@@ -41,7 +41,7 @@ export default function Page() {
     <div className="overflow-hidden flex flex-col items-center justify-center pt-4 h-screen -mt-16 selection:bg-rose-600 selection:text-white text-zinc-900">
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
+          <img src="https://tenor.com/view/excited-love-cute-puppy-dog-gif-14833253.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
             Ok Yayyyyy!!!
           </div>
@@ -58,10 +58,10 @@ export default function Page() {
           />
           <img
             className="h-[230px] rounded-lg shadow-lg"
-            src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
+            src="https://tenor.com/view/guitar-sing-music-song-gif-14011119.gif"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
+            Rachel will you be my Valentine? :)
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
@@ -75,7 +75,7 @@ export default function Page() {
               onClick={handleNoClick}
               className=" bg-rose-500 hover:bg-rose-600 rounded-lg text-white font-bold py-2 px-4"
             >
-              {noCount === 0 ? "No" : getNoButtonText()}
+              {noCount === 0 ? "Maybe see how" : getNoButtonText()}
             </button>
           </div>
         </>
